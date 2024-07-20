@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "92a3ebbd678beb0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "583a51b60c61d88c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "410eb375217e5d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continuum Regime.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4795f4b2a0b09e94",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "00 - CANVAS - Calculation.canvas",
+                "viewState": {
+                  "x": 1014.6933087462636,
+                  "y": 1743.9985286634812,
+                  "zoom": 0.33333333333333326
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7e36913a9e8b977",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4dc06f5f9e1cd89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "067a8ab68bfbb221",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2902485622893b58",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0277ff3554cc7777",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "97ac955d0b184e1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "25a10ad088af9743",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ecdde062b2f1656",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 - CANVAS - Calculation.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f49e443a052730d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - CANVAS - Calculation.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98d17664fbd6b5a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "39e5ed586b53dcef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 - CANVAS - Calculation.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4795f4b2a0b09e94",
+  "lastOpenFiles": [
+    "Continuum Regime.md",
+    "00 - CANVAS - Calculation.canvas",
+    "Point B - Vacuum.md",
+    "Point 6 - Vacuum Chamber.md",
+    "Point 6 - Outlet Nozzle.md",
+    "Point 4 - Outlet Reactor.md",
+    "Point A - Leakage Reactor.md",
+    "Point 3 - Reactor Chamber.md",
+    "Point 2 - Inlet Reactor.md",
+    "Point 1 - Inlet Nozzle 1.md",
+    "Point 0 - Reservoir.md",
+    "Untitled.md",
+    "Copy - Microfluidic Devices.png",
+    "Characteristic Length ( m ).md",
+    "00 - Notes and ToDo.md",
+    "00 - CANVAS - Flow Regime.canvas",
+    "Goals.md",
+    "Idealized Flow Regimes.md",
+    "Knudsen number ( 1 ).md",
+    "List of Components.md",
+    "Mach number - Flow Speeds.md",
+    "Mean free path ( m ).md",
+    "Molecular Regime.md",
+    "Pasted image 20240716191638.png",
+    "Reynolds number.md",
+    "Slip Regime.md",
+    "Sonic Regime.md",
+    "Subsonic Regime.md",
+    "Super Sonic Regime.md",
+    "Table - Knudsen Number.png",
+    "Pasted image 20240716182842.png"
+  ]
+}

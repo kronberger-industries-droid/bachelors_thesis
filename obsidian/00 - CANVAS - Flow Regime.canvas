@@ -2,10 +2,9 @@
 	"nodes":[
 		{"id":"34e2034b56b32961","type":"file","file":"Subsonic Regime.md","x":-2162,"y":3050,"width":400,"height":400},
 		{"id":"165894e248a7de46","type":"text","text":"# Start","x":-384,"y":-640,"width":140,"height":60},
-		{"id":"55897ec2086abdea","type":"file","file":"Slip Regime.md","x":-888,"y":280,"width":400,"height":400},
-		{"id":"de20daf77f2b032b","type":"file","file":"Transient Regime.md","x":-240,"y":280,"width":400,"height":400},
-		{"id":"86f8ece6c51816e1","type":"file","file":"Molecular Regime.md","x":440,"y":280,"width":400,"height":400},
-		{"id":"1a2625eb95d9840e","type":"file","file":"Continuum Regime.md","x":-1520,"y":280,"width":400,"height":400},
+		{"id":"de20daf77f2b032b","type":"file","file":"Transient Regime.md","x":-240,"y":280,"width":400,"height":400,"color":"1"},
+		{"id":"86f8ece6c51816e1","type":"file","file":"Molecular Regime.md","x":440,"y":280,"width":400,"height":400,"color":"1"},
+		{"id":"1a2625eb95d9840e","type":"file","file":"Continuum Regime.md","x":-1520,"y":280,"width":400,"height":400,"color":"4"},
 		{"id":"cdb8f2237670f045","type":"text","text":"# Calculate [[Reynolds number]]\n","x":-1889,"y":960,"width":409,"height":80},
 		{"id":"9b7ab018f1901491","type":"file","file":"Turbulent Flow.md","x":-2400,"y":1360,"width":400,"height":400},
 		{"id":"348a327d06c95b29","type":"file","file":"Laminar Flow.md","x":-1600,"y":1360,"width":400,"height":400},
@@ -20,14 +19,15 @@
 		{"id":"8ff746d8ac6565df","type":"text","text":"# Note\n- Can we rule out some ranges of [[Reynolds number|Reynolds numbers]]\n- What is the dominant Term in the Equation:","x":-2120,"y":80,"width":460,"height":340,"color":"3"},
 		{"id":"f3241c47bfe067bd","type":"file","file":"Pasted image 20240716191638.png","x":-3240,"y":-200,"width":400,"height":211},
 		{"id":"2efe349b5ed84fe6","type":"file","file":"Table - Knudsen Number.png","x":680,"y":-559,"width":399,"height":130},
-		{"id":"6ce22248d9833748","type":"file","file":"Idealized Flow Regimes.md","x":160,"y":-540,"width":400,"height":400}
+		{"id":"6ce22248d9833748","type":"file","file":"Idealized Flow Regimes.md","x":160,"y":-540,"width":400,"height":400},
+		{"id":"55897ec2086abdea","type":"file","file":"Slip Regime.md","x":-900,"y":280,"width":400,"height":400,"color":"4"}
 	],
 	"edges":[
 		{"id":"ee3bf59bfb508c81","fromNode":"165894e248a7de46","fromSide":"bottom","toNode":"5c8b0c4a5bb365ae","toSide":"top"},
-		{"id":"17289b1df653e3a3","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"86f8ece6c51816e1","toSide":"top","label":"Kn > 10"},
-		{"id":"561b0ce455b0990a","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"de20daf77f2b032b","toSide":"top","label":"0.1 < Kn < 10 "},
+		{"id":"17289b1df653e3a3","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"86f8ece6c51816e1","toSide":"top","color":"1","label":"Kn > 10"},
+		{"id":"561b0ce455b0990a","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"de20daf77f2b032b","toSide":"top","color":"1","label":"0.1 < Kn < 10 "},
 		{"id":"17a4137af58fb97c","fromNode":"5c8b0c4a5bb365ae","fromSide":"right","toNode":"6ce22248d9833748","toSide":"left","toEnd":"none"},
-		{"id":"d22a39303daf5975","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"55897ec2086abdea","toSide":"top","label":"0.001 < Kn < 0.1"},
+		{"id":"d22a39303daf5975","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"55897ec2086abdea","toSide":"top","color":"4","label":"0.001 < Kn < 0.1"},
 		{"id":"c0511e1c70a9589e","fromNode":"5c8b0c4a5bb365ae","fromSide":"bottom","toNode":"1a2625eb95d9840e","toSide":"top","color":"4","label":"Kn < 0.001"},
 		{"id":"e9733a8384095837","fromNode":"1a2625eb95d9840e","fromSide":"bottom","toNode":"cdb8f2237670f045","toSide":"top","color":"4"},
 		{"id":"5b0f794bf75be28a","fromNode":"cdb8f2237670f045","fromSide":"bottom","toNode":"348a327d06c95b29","toSide":"top","color":"4","label":"Re < 2300"},

@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"d9432a052b45ffc2","type":"file","file":"Point 2 - Inlet Reactor.md","x":-340,"y":1680,"width":540,"height":400},
+		{"id":"25ad09e178cf7190","type":"file","file":"Point 1 - Inlet Nozzle 1.md","x":-340,"y":1080,"width":540,"height":400},
+		{"id":"1592f5a13926c8d7","type":"file","file":"Point 0 - Reservoir.md","x":-340,"y":460,"width":300,"height":400},
+		{"id":"f826eeccadfd178d","type":"file","file":"Point 3 - Reactor Chamber.md","x":468,"y":1680,"width":540,"height":400},
+		{"id":"f3fbfaccc113c34d","type":"file","file":"Point A - Leakage Reactor.md","x":468,"y":2400,"width":540,"height":400},
+		{"id":"e9ac06546a060c1f","type":"file","file":"Point 6 - Vacuum Chamber.md","x":1280,"y":460,"width":540,"height":400},
+		{"id":"9f7d404f14c22dc5","type":"file","file":"Point 6 - Outlet Nozzle.md","x":1280,"y":1080,"width":540,"height":400},
+		{"id":"c8c9f2acd3f654e4","type":"file","file":"Point 4 - Outlet Reactor.md","x":1280,"y":1680,"width":540,"height":400},
+		{"id":"5a37f6f262d01696","type":"file","file":"Point B - Vacuum.md","x":468,"y":3000,"width":540,"height":400},
+		{"id":"b1b8a03781df0fd8","type":"text","text":"Point 7: Vacuum","x":928,"y":-480,"width":250,"height":60},
+		{"id":"61ed7f4fb8ccc28d","type":"text","text":"Point 6: Outlet Nozzle","x":928,"y":-340,"width":250,"height":60},
+		{"id":"89786a05ef17c946","type":"text","text":"Point 4: Reactor Chamber","x":604,"y":-220,"width":250,"height":60},
+		{"id":"9ce2ec75600f59dd","type":"text","text":"Point 5.1: Outlet Reactor","x":928,"y":-220,"width":250,"height":60},
+		{"id":"2e8692af3561383c","type":"text","text":"Point 5.2: Leakage Reactor","x":604,"y":-80,"width":250,"height":60},
+		{"id":"7633f90a9ddb6eca","type":"text","text":"Point 1: Reservoir","x":280,"y":-480,"width":250,"height":60},
+		{"id":"00d604d559501ef4","type":"text","text":"Point 2: Inlet Nozzle","x":280,"y":-340,"width":250,"height":60},
+		{"id":"2b3b9e5fc88e3030","type":"text","text":"Point 3: Inlet Reactor","x":280,"y":-220,"width":250,"height":58}
+	],
+	"edges":[
+		{"id":"47199bdcba79916d","fromNode":"7633f90a9ddb6eca","fromSide":"bottom","toNode":"00d604d559501ef4","toSide":"top"},
+		{"id":"098b512143936dbe","fromNode":"2e8692af3561383c","fromSide":"right","toNode":"b1b8a03781df0fd8","toSide":"right"},
+		{"id":"fcfd554c2f9ff507","fromNode":"89786a05ef17c946","fromSide":"bottom","toNode":"2e8692af3561383c","toSide":"top"},
+		{"id":"906dab5d38dba39f","fromNode":"89786a05ef17c946","fromSide":"right","toNode":"9ce2ec75600f59dd","toSide":"left"},
+		{"id":"052fe8ffe28a3030","fromNode":"9ce2ec75600f59dd","fromSide":"top","toNode":"61ed7f4fb8ccc28d","toSide":"bottom"},
+		{"id":"b431471efaea85c6","fromNode":"61ed7f4fb8ccc28d","fromSide":"top","toNode":"b1b8a03781df0fd8","toSide":"bottom"},
+		{"id":"ec0801d0ccf54aa3","fromNode":"00d604d559501ef4","fromSide":"bottom","toNode":"2b3b9e5fc88e3030","toSide":"top"},
+		{"id":"b76ce64c171a4287","fromNode":"2b3b9e5fc88e3030","fromSide":"right","toNode":"89786a05ef17c946","toSide":"left"},
+		{"id":"935f277b719699c3","fromNode":"25ad09e178cf7190","fromSide":"bottom","toNode":"d9432a052b45ffc2","toSide":"top","color":"3","label":"laminar flow\nsubsonic"},
+		{"id":"8e89651ec5595620","fromNode":"d9432a052b45ffc2","fromSide":"right","toNode":"f826eeccadfd178d","toSide":"left","color":"3","label":"subsonic"},
+		{"id":"f18cc77b7bfca89b","fromNode":"f826eeccadfd178d","fromSide":"right","toNode":"c8c9f2acd3f654e4","toSide":"left","color":"2","label":"approaching sonic"},
+		{"id":"1bdeb8836ea1d733","fromNode":"c8c9f2acd3f654e4","fromSide":"top","toNode":"9f7d404f14c22dc5","toSide":"bottom","color":"1","label":"super sonic"},
+		{"id":"2d29432aecd1583c","fromNode":"f826eeccadfd178d","fromSide":"bottom","toNode":"f3fbfaccc113c34d","toSide":"top","color":"2","label":"approaching sonic"},
+		{"id":"61b7c859f8509f34","fromNode":"1592f5a13926c8d7","fromSide":"bottom","toNode":"25ad09e178cf7190","toSide":"top","color":"4","label":"stagnant conditions"},
+		{"id":"c7fbcb52ce2083d4","fromNode":"e9ac06546a060c1f","fromSide":"bottom","toNode":"9f7d404f14c22dc5","toSide":"top","label":"no back pressure"},
+		{"id":"0d686b3c56d9bc21","fromNode":"5a37f6f262d01696","fromSide":"top","toNode":"f3fbfaccc113c34d","toSide":"bottom","label":"no back pressure"}
+	]
+}
